@@ -1,0 +1,35 @@
+﻿@page "/MSIW1"
+Checklista - Zamknięcie
+
+<form>
+    <input type="checkbox" id="chkbx-device_power" />
+    <label for="dev-power"> Sprawdź czy wszystkie urządzenia są podłączone</label><br />
+
+    <input type="checkbox" id="chkbx-refridgerator_doors" />
+    <label for="chkbx-refridgerator_doors"> Sprawdź czy wszystkie lodówki są domknięte</label> <br />
+
+    <input type="text" id="txt-refridgerator_temp" />
+    <label for="txt-refridgerator_temp"> Temperatura lodówek</label> <br />
+
+    <input type="checkbox" id="chkbx-beer" />
+    <label for="chkbx-beer"> Piwo dołożone do lodówek</label> <br />
+
+    <input type="checkbox" id="chkbx-vodka" />
+    <label for="chkbx-vodka"> Wódka dołożona do lodówek</label> <br />
+
+    <input type="text" id="txt-name" />
+    <label for="txt-name"> Kierownik zmiany</label>  <br />
+
+    <input type="submit" value="Prześlij checklistę" />
+</form>
+
+Dodatkowa lista kontrolna:
+<ul>
+    <li>Sprawdź czy wszyscy klienci opuścili lokal</li>
+    <li>Wyparz wszystkie gumy</li>
+    <li>Wyślij stany jedzenia oraz chleba do managera</li>
+</ul>
+
+@code {
+
+}
